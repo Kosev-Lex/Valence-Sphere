@@ -1,0 +1,44 @@
+{
+  "concept": "",
+  "concept_id": "",
+  "version": "11.0",
+  "created_at": "",
+  "updated_at": "",
+  "metadata": {
+    "schema_name": "ValenceSphere Fresh Concept Formation",
+    "status": "uninitialized",
+    "question_count": 20,
+    "tags": [],
+    "origin_source": ""
+  },
+  "relations": [],
+  "coverage": {},
+  "discovery": {
+    "question_bank_version": "11.0-fresh",
+    "questions": [
+      {"id": 1, "text": "What is {concept}?", "phase": "definition", "intent": "definition", "status": "unasked", "answer": null, "answers": [], "priority": 1.0, "confidence": null, "source": "", "timestamp_created": "", "timestamp_answered": null, "constituent_analysis": null},
+      {"id": 2, "text": "What kind of thing is {concept}?", "phase": "definition", "intent": "classification", "status": "unasked", "answer": null, "answers": [], "priority": 0.95, "confidence": null, "source": "", "timestamp_created": "", "timestamp_answered": null, "constituent_analysis": null},
+      {"id": 3, "text": "What distinguishes {concept} from other similar things?", "phase": "definition", "intent": "distinction", "status": "unasked", "answer": null, "answers": [], "priority": 0.9, "confidence": null, "source": "", "timestamp_created": "", "timestamp_answered": null, "constituent_analysis": null},
+      {"id": 4, "text": "What does {concept} look like?", "phase": "observation", "intent": "appearance", "status": "unasked", "answer": null, "answers": [], "priority": 0.8, "confidence": null, "source": "", "timestamp_created": "", "timestamp_answered": null, "constituent_analysis": null},
+      {"id": 5, "text": "Where is {concept} commonly found or observed?", "phase": "observation", "intent": "location", "status": "unasked", "answer": null, "answers": [], "priority": 0.8, "confidence": null, "source": "", "timestamp_created": "", "timestamp_answered": null, "constituent_analysis": null},
+      {"id": 6, "text": "Under what conditions does {concept} appear, grow, or arise?", "phase": "observation", "intent": "conditions", "status": "unasked", "answer": null, "answers": [], "priority": 0.8, "confidence": null, "source": "", "timestamp_created": "", "timestamp_answered": null, "constituent_analysis": null},
+      {"id": 7, "text": "How does {concept} come into existence, function, or operate?", "phase": "mechanism", "intent": "operation", "status": "unasked", "answer": null, "answers": [], "priority": 0.9, "confidence": null, "source": "", "timestamp_created": "", "timestamp_answered": null, "constituent_analysis": null},
+      {"id": 8, "text": "How can {concept} be recognized or identified?", "phase": "mechanism", "intent": "recognition", "status": "unasked", "answer": null, "answers": [], "priority": 0.8, "confidence": null, "source": "", "timestamp_created": "", "timestamp_answered": null, "constituent_analysis": null},
+      {"id": 9, "text": "How does {concept} change over time or under different conditions?", "phase": "mechanism", "intent": "change", "status": "unasked", "answer": null, "answers": [], "priority": 0.8, "confidence": null, "source": "", "timestamp_created": "", "timestamp_answered": null, "constituent_analysis": null},
+      {"id": 10, "text": "What parts or layers make up {concept}, and what are their functions?", "phase": "structure", "intent": "composition", "status": "unasked", "answer": null, "answers": [], "priority": 0.9, "confidence": null, "source": "", "timestamp_created": "", "timestamp_answered": null, "constituent_analysis": null},
+      {"id": 11, "text": "What are the key properties or defining traits of {concept}?", "phase": "structure", "intent": "properties", "status": "unasked", "answer": null, "answers": [], "priority": 0.9, "confidence": null, "source": "", "timestamp_created": "", "timestamp_answered": null, "constituent_analysis": null},
+      {"id": 12, "text": "What are the main types, forms, or variants of {concept}?", "phase": "structure", "intent": "variation", "status": "unasked", "answer": null, "answers": [], "priority": 0.75, "confidence": null, "source": "", "timestamp_created": "", "timestamp_answered": null, "constituent_analysis": null},
+      {"id": 13, "text": "In what systems, processes, or ecosystems does {concept} participate?", "phase": "relations", "intent": "systems", "status": "unasked", "answer": null, "answers": [], "priority": 0.85, "confidence": null, "source": "", "timestamp_created": "", "timestamp_answered": null, "constituent_analysis": null},
+      {"id": 14, "text": "How does {concept} interact with its surroundings or related entities?", "phase": "relations", "intent": "interaction", "status": "unasked", "answer": null, "answers": [], "priority": 0.85, "confidence": null, "source": "", "timestamp_created": "", "timestamp_answered": null, "constituent_analysis": null},
+      {"id": 15, "text": "Why is {concept} important, useful, or necessary?", "phase": "significance", "intent": "importance", "status": "unasked", "answer": null, "answers": [], "priority": 0.9, "confidence": null, "source": "", "timestamp_created": "", "timestamp_answered": null, "constituent_analysis": null},
+      {"id": 16, "text": "How does {concept} benefit or harm people, systems, or environments?", "phase": "significance", "intent": "impact", "status": "unasked", "answer": null, "answers": [], "priority": 0.85, "confidence": null, "source": "", "timestamp_created": "", "timestamp_answered": null, "constituent_analysis": null},
+      {"id": 17, "text": "What limitations, constraints, or dependencies affect {concept}?", "phase": "significance", "intent": "constraints", "status": "unasked", "answer": null, "answers": [], "priority": 0.85, "confidence": null, "source": "", "timestamp_created": "", "timestamp_answered": null, "constituent_analysis": null},
+      {"id": 18, "text": "What are the direct or indirect effects of {concept}?", "phase": "significance", "intent": "effects", "status": "unasked", "answer": null, "answers": [], "priority": 0.8, "confidence": null, "source": "", "timestamp_created": "", "timestamp_answered": null, "constituent_analysis": null},
+      {"id": 19, "text": "What is {concept} similar to in structure, behavior, or purpose?", "phase": "comparison", "intent": "analogy", "status": "unasked", "answer": null, "answers": [], "priority": 0.7, "confidence": null, "source": "", "timestamp_created": "", "timestamp_answered": null, "constituent_analysis": null},
+      {"id": 20, "text": "What does {concept} represent or symbolize culturally or metaphorically?", "phase": "meaning", "intent": "symbolism", "status": "unasked", "answer": null, "answers": [], "priority": 0.65, "confidence": null, "source": "", "timestamp_created": "", "timestamp_answered": null, "constituent_analysis": null}
+    ]
+  },
+  "adjudication_history": [],
+  "review_queue": [],
+  "provenance": {}
+}

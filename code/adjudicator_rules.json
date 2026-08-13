@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "version": "1.1.0",
+    "description": "Core logic and reasoning framework for the ValenceSphere Adjudicator. Defines principles, evaluation stages, and weighting parameters for factual acceptance or pending disposition.",
+    "created": "2025-11-18T00:00:00Z"
+  },
+
+  "principles": {
+    "logic": {
+      "non_contradiction": "Two mutually exclusive claims cannot both be true within the same context.",
+      "identity": "A fact must refer to a clearly defined subject; ambiguous references are unresolved.",
+      "sufficiency": "Claims require adequate premises or evidence to justify acceptance.",
+      "consistency": "New information must align with accepted system axioms unless higher-order reasoning justifies revision.",
+      "reversibility": "If a conclusion cannot be logically inverted without contradiction, it is likely coherent."
+    },
+    "analysis": {
+      "source_weighting": "Each source carries historical reliability; sources with repeated coherence increase in weight.",
+      "contextual_fit": "Facts are compared against the semantic and conceptual field of the host concept.",
+      "completeness": "Partial facts are accepted provisionally and marked for elaboration.",
+      "temporal_relevance": "Recent or time-bound claims are preferred over obsolete ones unless timeless in nature."
+    },
+    "debate": {
+      "thesis_antithesis": "Contradictory facts trigger formation of opposing claims for later synthesis.",
+      "burden_of_proof": "The claim introducing change bears the burden of justification.",
+      "consilience": "When multiple independent sources converge on a claim, it gains elevated standing.",
+      "minority_retention": "Outlier facts are preserved in the pending file as potential future insights.",
+      "socratic_elicitation": "Pending contradictions may generate new clarifying questions."
+    },
+    "argumentation": {
+      "inductive_rule": "Repeated patterns form general principles, strengthened by frequency and diversity.",
+      "deductive_rule": "If all premises are accepted and the reasoning is valid, the conclusion is accepted.",
+      "abductive_rule": "When evidence is incomplete, prefer the simplest coherent explanation.",
+      "dialectical_resolution": "Accepted facts may be revised if a more coherent system emerges.",
+      "epistemic_hierarchy": "Direct evidence outranks inference; inference outranks analogy or hearsay."
+    }
+  },
+
+  "evaluation_stages": [
+    "logical_screening",
+    "contextual_comparison",
+    "source_analysis",
+    "conflict_detection",
+    "argumentation_review",
+    "final_disposition"
+  ],
+
+  "rules": {
+    "logical_screening": {
+      "reject_if_contradiction": true,
+      "reject_if_undefined_terms": true,
+      "flag_if_tautology": true
+    },
+    "contextual_comparison": {
+      "semantic_similarity_threshold": 0.80,
+      "require_context_overlap": true,
+      "use_axis_alignment": true
+    },
+    "source_analysis": {
+      "reliability_scale": {
+        "primary": 1.0,
+        "secondary": 0.75,
+        "tertiary": 0.5,
+        "unknown": 0.25
+      },
+      "minimum_reliability_to_accept": 0.6,
+      "auto_pending_if_unknown_source": true
+    },
+    "conflict_detection": {
+      "semantic_opposition_threshold": 0.85,
+      "tolerance_for_paradox": 0.1,
+      "auto_create_pending_case": true
+    },
+    "argumentation_review": {
+      "inductive_weight": 0.3,
+      "deductive_weight": 0.5,
+      "abductive_weight": 0.2,
+      "allow_partial_acceptance": true,
+      "generate_socratic_question_on_conflict": true
+    },
+    "final_disposition": {
+      "accept_threshold": 0.75,
+      "pending_threshold": 0.40,
+      "reject_threshold": 0.20,
+      "default_disposition": "pending",
+      "revision_allowed": true,
+      "preserve_all_traces": true
+    }
+  },
+
+  "dispositions": {
+    "accepted": {
+      "meaning": "The claim aligns with logical, evidential, and contextual standards.",
+      "actions": ["store_in_memory", "link_to_source", "reinforce_associated_axes"]
+    },
+    "pending": {
+      "meaning": "The claim presents a conflict, ambiguity, or insufficient grounding.",
+      "actions": ["store_in_pending", "schedule_for_adjudication", "generate_clarifying_question"]
+    },
+    "rejected": {
+      "meaning": "The claim fails logical, evidential, or consistency checks.",
+      "actions": ["archive_for_reference", "reduce_source_reliability"]
+    }
+  },
+
+  "confidence_computation": {
+    "base_confidence": 0.7,
+    "source_weight": 0.25,
+    "consilience_bonus": 0.15,
+    "contradiction_penalty": 0.25,
+    "novelty_penalty": 0.10,
+    "argument_quality_bonus": 0.20,
+    "floor": 0.10,
+    "ceiling": 1.00
+  },
+
+  "confidence_weights": {
+    "base": 0.6,
+    "coherence_bonus": 0.2,
+    "source_bonus": 0.2
+  },
+
+  "epistemic_decay": {
+    "reevaluation_interval_days": 30,
+    "confidence_decay_per_day": 0.002,
+    "pending_recheck_limit": 3
+  },
+
+  "logging": {
+    "log_conflicts": true,
+    "log_argumentation_paths": true,
+    "log_dispositions": true,
+    "store_lineage": true
+  }
+}
