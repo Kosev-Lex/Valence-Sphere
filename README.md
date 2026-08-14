@@ -3,9 +3,9 @@
 <figure style="width: 560px; max-width: 100%"><img src="assets/Valencesphere.png" alt="" style="width: 100%; height: auto; display: block"></figure>
 
  
-ValenceSphere is a two-stage concept-learning and factual-auditing system. Stage 1 builds structured knowledge about individual concepts. Stage 2 provides an ordinary LLM chat while independently checking factual assertions made by both the user and the LLM.
-
-The program does not use machine learning models of its own. It coordinates configured LLM APIs, structured concept templates, persistent audit records and a navigable knowledge graph.
+ValenceSphere is an experimental "concept-first" AI reasoning system, using triadic questioner (Socrates), answerer (Plato), and adjudicator for data auditing and verification to give AI models greater structure and the beginnings of critical thinking.
+It is structured as a two-stage concept-learning and factual-auditing system. Stage 1 builds structured knowledge about individual concepts. Stage 2 provides an ordinary LLM chat while independently checking factual assertions made by both the user and the LLM.</p>
+<p>The program does not use machine learning models of its own, just yet, but this can be integrated later. It coordinates configured LLM APIs, structured concept templates, persistent audit records and a navigable knowledge graph.
 
 ## Core purpose
 
